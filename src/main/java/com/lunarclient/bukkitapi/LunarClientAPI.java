@@ -165,7 +165,7 @@ public final class LunarClientAPI extends JavaPlugin implements Listener {
      *
      * @param player The player to receive the enabled staff modules.
      */
-    public void giveAllStaffModules(Player player) {
+    public void giveAllStaffModules(Player Zeiwy) {
         for (StaffModule module : StaffModule.values()) {
             setStaffModuleState(player, module, true);
         }
